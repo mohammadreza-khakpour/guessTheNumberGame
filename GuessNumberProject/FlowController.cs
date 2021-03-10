@@ -2,8 +2,7 @@
 
 namespace GuessNumberProject
 {
-    //Flow Controller
-    class Program
+    class FlowController
     {
         static void Main(string[] args)
         {
@@ -25,11 +24,6 @@ namespace GuessNumberProject
                 uiHandler.PrintMessageInConsole();
 
             } while (analyst.ResultInString != "correct");
-
-            
-
-
-
         }
     }
 }
